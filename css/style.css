@@ -1,0 +1,282 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.border { 
+  border: 1px solid #8887ff4a;
+}
+
+.space {
+  height: 20px;
+}
+
+.logo {
+  margin-top: 7px;
+  width: 145px;
+}
+
+.nav li a {
+  padding: 0px;
+}
+
+nav {
+  margin: 0px;
+  height: 46px;
+  width: 100%;
+  max-width: 100%;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+}
+
+nav .nav-sections {
+  margin: 0px;
+  padding: 0px;
+}
+
+.row {
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-content {
+  margin: 0;
+}
+
+.cart-icon .glyphicon {
+  background: none;
+  color: #4C4C4C;
+}
+
+.account-icon {
+  width: 21px;
+  height: 25px;
+  margin: 10px 20px 0px 0px
+}
+
+nav li {
+  list-style: none;
+  float: left;
+}
+
+.cart-icon {
+  font-size: 18px;
+  margin: 10px 22px 0px 0px;
+}
+
+.phone-icon {
+  margin: 13px 5px 0px 0px;
+}
+
+.phone-number {
+  font-size: 13.5px;
+  font-family: 'Futura PT', sans-serif;
+  color: #666;
+  float: right;
+  margin-top: 13px;
+}
+
+.jumbotron {
+  margin: 0px;
+  padding: 0px;
+  color: inherit;
+  background-color: #eee;
+}
+
+.hero-section {
+  background-color: #FAFAFA;
+}
+
+.hero-titles {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-title-1 {
+  width: 400px;
+  margin: 20px 0px 0px 0px;
+}
+
+.hero-title-2 {
+  width: 280px;
+  margin: 15px 0px 0px 0px;
+}
+
+.hero-title-3 {
+  width: 511px;
+  margin: 9px 0px 0px 0px;
+}
+
+.hero-list ul {
+  padding: 32px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-list li {
+  line-height: 27px;
+  padding: -1px 0px;
+  list-style: none;
+  float: left;
+}
+
+.hero-list-titles {
+  color: #29353A;
+  font-family: 'Korolev Heavy', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.hero-list-paragraph {
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.4px;
+}
+
+.hero-list-paragraph a {
+  text-decoration-line: underline;
+}
+
+.hero-list-icon {
+  width: 95px;
+  margin: -10px 0px 0px -10px;
+}
+
+.pan-icon {
+  width: 71px;
+  margin: -13px 12px 0px 5px;
+}
+
+.jumbotron .shipping-specs {
+  margin: -18px 0px 0px 0px;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.sign-up-title {
+  color: #29353A;
+  font-family: 'Korolev Heavy', sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 90px 0px 45px 0px;
+}
+
+.sm-hero-img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* x small mobile  */
+
+@media (min-width: 768px) {
+  
+  nav {
+    margin: 0px;
+    height: 60px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .logo {
+    margin: 7px 0px 0px 150px;
+    width: 185px;
+  } 
+
+  .phone-number {
+    font-size: 12px;
+    font-family: 'Futura PT', sans-serif;
+    color: #666;
+    float: right;
+    margin: 21px 150px 0px 0px;
+  }
+
+  .phone-icon {
+    margin: 20px 9px 0px 0px;
+  }
+
+  .cart-icon {
+    font-family: Arial;
+    font-size: 14px;
+    padding: 7px 21px 5px 21px;
+    background-color: #64a535;
+    color: white;
+    display: flex;
+  }
+
+  .cart-icon .glyphicon {
+    font-size: 17px;
+    color: white;
+    margin-right: 5px;
+  }
+
+  .account-icon {
+    width: 21px;
+    height: 25px;
+    margin: 18px 25px 0px 0px;
+  }
+
+  .hero-list li {
+    line-height: 27px;
+    padding: -1px 0px;
+    list-style: none;
+    float: left;
+    /* width: 100%; */
+  }
+
+}
+
+/* small tablet  */
+
+@media (min-width: 992px) {
+
+  .hero-titles {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hero-title-3 {
+    width: 409px;
+    margin: 9px 0px 0px 0px;
+}
+
+}
+
+/* medium / large desktop +  */
+
+@media (min-width: 1200px) {
+  
+  .hero-section {
+    background: url(../img/hero-md-background.png) no-repeat top fixed;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: inherit;
+    background-color: #F7F7F7;
+}
+
+}
