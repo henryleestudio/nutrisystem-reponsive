@@ -24,7 +24,7 @@ main {
 
 .logo {
   margin-top: 7px;
-  width: 145px;
+  width: 113px;
 }
 
 .nav li a {
@@ -44,11 +44,6 @@ nav ul {
   float: right;
 }
 
-nav .nav-sections {
-  margin: 0px;
-  padding: 0px;
-}
-
 .row {
   padding: 0px;
   margin: 0px;
@@ -61,6 +56,11 @@ nav .nav-sections {
 .cart-icon .glyphicon {
   background: none;
   color: #4C4C4C;
+}
+
+.nav-section-2 {
+  margin: 0px;
+  padding: 0px;
 }
 
 .account-icon {
@@ -109,17 +109,17 @@ nav li {
 }
 
 .hero-title-1 {
-  width: 400px;
+  width: 315px;
   margin: 20px 0px 0px 0px;
 }
 
 .hero-title-2 {
-  width: 280px;
+  width: 180px;
   margin: 15px 0px 0px 0px;
 }
 
 .hero-title-3 {
-  width: 511px;
+  width: 311px;
   margin: 9px 0px 0px 0px;
 }
 
@@ -139,19 +139,27 @@ nav li {
 .hero-list-titles {
   color: #29353A;
   font-family: 'Korolev Heavy', sans-serif;
-  font-size: 25px;
+  font-size: 15.5px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
 }
 
-.hero-list-paragraph {
+li .hero-list-paragraph {
   font-family: Arial;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 27.4px;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  line-height: 17.4px;
+  margin: -3px 0 4px 0;
+}
+
+.jumbotron .shipping-specs {
+  margin: -9px 0px -16px 53px;
+  font-size: 10.5px;
+  line-height: 27px;
 }
 
 .hero-list-paragraph a {
@@ -159,35 +167,212 @@ nav li {
 }
 
 .hero-list-icon {
-  width: 95px;
+  width: 62px;
   margin: -10px 0px 0px -10px;
 }
 
 .pan-icon {
-  width: 71px;
-  margin: -13px 12px 0px 5px;
-}
-
-.jumbotron .shipping-specs {
-  margin: -18px 0px 0px 0px;
-  font-size: 16px;
-  line-height: 27px;
+  width: 46px;
+  margin: -5px 9px 20px 0px;
 }
 
 .sign-up-title {
   color: #29353A;
   font-family: 'Korolev Heavy', sans-serif;
-  font-size: 56px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
-  margin: 90px 0px 45px 0px;
+  margin: 45px 0px 0px 0px;
 }
 
 .sm-hero-img {
   width: 100%;
   max-width: 100%;
+}
+
+.price-box {
+  border-radius: 10px;
+  background: var(--primary-mint, #F0F7EC);
+  box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.11);
+  display: flex;
+  height: 204px;
+  padding-top: 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  margin-top: 25px;
+}
+
+#blue-box {
+  border-radius: 10px;
+  border: 3px solid #0F999D;
+  background: var(--grays-white, #FFF);
+  box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.11);
+  display: flex;
+  height: 204px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  padding-top: -10px;
+}
+
+.plane-border {
+  border-top: 5px solid #64A535;
+  width: 115px;
+  height: 5px;
+  flex-shrink: 0;
+}
+
+.price-title {
+  color: var(--grays-slate-gray, #29353A);
+  text-align: center;
+  font-family: 'Korolev Heavy', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34px; 
+  width: 270px;
+}
+
+.price-sub-title {
+  color: var(--grays-slate-gray, #29353A);
+  text-align: center;
+  font-family: 'Korolev Heavy', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+
+.price {
+  color: var(--grays-slate-gray, #29353A);
+  text-align: center;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.8px; /* 110% */
+}
+
+.btn {
+  border-radius: 26px;
+  background: var(--accent-cta-orange, #F76800); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  display: flex;
+  padding: 10px 25px 11px 25px;
+  justify-content: center;
+  align-items: flex-end;
+
+  color: var(--white, #FFF);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+
+  font-family: 'Korolev Heavy', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.most-popular-tag {
+  position: absolute;
+  margin-top: 0px;
+  right: -4px;
+  width: 59px;
+  z-index: 1;
+}
+
+.disclaimer {
+    color: #4C4C4C;
+    text-align: center;
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 13.2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .how-it-works-img {
+    width: 100%;
+  }
+
+/* deatils on super small devices */
+
+@media (max-width: 375px) {
+  .phone-number {
+    display: none;
+  }
+
+}
+
+@media (min-width: 600px) {
+  .hero-titles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .hero-title-1 {
+    width: 380px;
+    margin: 20px 0px 0px 11px;
+  }
+  
+  .hero-title-2 {
+    width: 280px;
+    margin: 15px 0px 0px 8px;
+  }
+  
+  .hero-title-3 {
+    width: 511px;
+    margin: 9px 0px 0px 9px;
+  }
+
+  .hero-list-titles {
+    color: #29353A;
+    font-family: 'Korolev Heavy', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .hero-list-paragraph {
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.4px;
+  }
+    .jumbotron .shipping-specs {
+    margin: -18px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .hero-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  li .hero-list-paragraph {
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    margin: -3px 0 10px 0;
+}
 }
 
 /* x small mobile  */
@@ -202,9 +387,9 @@ nav li {
   }
 
   .logo {
-    margin: 7px 0px 0px 150px;
-    width: 185px;
-  } 
+    margin-top: 7px;
+    width: 145px;
+  }
 
   .phone-number {
     font-size: 12px;
@@ -244,14 +429,64 @@ nav li {
     padding: -1px 0px;
     list-style: none;
     float: left;
-    /* width: 100%; */
   }
 
+  .hero-list-icon {
+    width: 95px;
+    margin: -10px 0px 0px -10px;
+  }
+
+  .pan-icon {
+    width: 71px;
+    margin: -13px 12px 0px 5px;
+  }
+
+  .hero-list-titles {
+    color: #29353A;
+    font-family: 'Korolev Heavy', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .hero-list-paragraph {
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.4px;
+  }
+    .jumbotron .shipping-specs {
+    margin: -18px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .hero-list {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
 /* small tablet  */
 
 @media (min-width: 992px) {
+
+  .logo {
+    margin: 7px 0px 0px -2px;
+    width: 185px;
+  }
+
+  .hero-section {
+    background: url(../img/hero-md-background.png) no-repeat top;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: inherit;
+    background-color: #F7F7F7;
+}
 
   .hero-titles {
     display: flex;
@@ -260,9 +495,8 @@ nav li {
   }
 
   .hero-title-3 {
-    width: 409px;
-    margin: 9px 0px 0px 0px;
-}
+    width: 400px;
+  }
 
 }
 
@@ -270,13 +504,45 @@ nav li {
 
 @media (min-width: 1200px) {
   
-  .hero-section {
-    background: url(../img/hero-md-background.png) no-repeat top fixed;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    color: inherit;
-    background-color: #F7F7F7;
-}
+  .logo {
+    margin-top: 7px;
+    width: 173px;
+  }
+
+  .hero-list-titles {
+    color: #29353A;
+    font-family: 'Korolev Heavy', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  li .hero-list-paragraph {
+    font-family: Arial;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 0px;
+    line-height: 23px;
+    margin: -3px 0 10px 0;
+  }
+
+  .jumbotron .shipping-specs {
+    margin: -15px 0px 0px 0px;
+    font-size: 14px;
+    line-height: 27px;
+  } 
+
+  .hero-list-icon {
+    width: 60px;
+    margin: -10px 11px 0px -10px;
+  }
+
+  .pan-icon {
+    width: 47px;
+    margin: -5px 16px 0px -1px;
+  }
 
 }
