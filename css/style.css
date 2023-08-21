@@ -1,3 +1,13 @@
+/* font-family: 'Korolev Heavy', sans-serif;
+font-family: 'Korolev Thin', sans-serif;
+font-family: 'Korolev Light Italic', sans-serif;
+font-family: 'Korolev Light', sans-serif;
+font-family: 'Korolev Medium Italic', sans-serif;
+font-family: 'Korolev Medium', sans-serif;
+font-family: 'Korolev Bold', sans-serif;
+font-family: 'Korolev Bold Italic', sans-serif;
+font-family: 'Korolev Heavy Italic', sans-serif; */
+
 body {
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
@@ -69,7 +79,7 @@ nav ul {
   margin: 10px 20px 0px 0px
 }
 
-nav li {
+li {
   list-style: none;
   float: left;
 }
@@ -198,12 +208,11 @@ li .hero-list-paragraph {
   box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.11);
   display: flex;
   height: 204px;
-  padding-top: 8px;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  align-self: stretch;
-  margin-top: 25px;
+  padding: 15px 0px 215px 0;
+  margin-top: 15px;
 }
 
 #blue-box {
@@ -225,6 +234,14 @@ li .hero-list-paragraph {
   width: 115px;
   height: 5px;
   flex-shrink: 0;
+}
+
+#blue-box .plane-border {
+  border-top: 5px solid #0F999D;
+}
+
+#blue-box .price-title {
+  margin-top: -13px;
 }
 
 .price-title {
@@ -251,35 +268,48 @@ li .hero-list-paragraph {
 .price {
   color: var(--grays-slate-gray, #29353A);
   text-align: center;
-  font-family: Arial;
+  font-family: 'Arial Rounded MT', sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 19.8px; /* 110% */
 }
 
+sup {
+  top: -0.4em;
+}
+
+.sale {
+  color: #64A535;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+#blue-box em {
+  color: #00A8AD;
+}
+
 .btn {
+  font-family: 'Korolev Medium', sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  color: white;
+  background:#F76800; 
   border-radius: 26px;
-  background: var(--accent-cta-orange, #F76800); 
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  display: flex;
   padding: 10px 25px 11px 25px;
-  justify-content: center;
-  align-items: flex-end;
+}
 
-  color: var(--white, #FFF);
-  text-align: center;
-  font-feature-settings: 'clig' off, 'liga' off;
+.glyphicon-triangle-right {
+  font-size: 15px;
+  padding: 0px 0px 2px 7px;
+}
 
-
-  font-family: 'Korolev Heavy', sans-serif;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+.glyphicon-triangle-top {
+  font-size: 15px;
+  padding: 0px 0px 5px 7px;
 }
 
 .most-popular-tag {
@@ -291,19 +321,88 @@ li .hero-list-paragraph {
 }
 
 .disclaimer {
-    color: #4C4C4C;
-    text-align: center;
-    font-family: Arial;
-    font-size: 11px;
-    line-height: 13.2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  color: #4C4C4C;
+  text-align: center;
+  font-family: Arial;
+  font-size: 11px;
+  line-height: 13.2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+}
 
-  .how-it-works-img {
-    width: 100%;
-  }
+.disclaimer-2 {
+  color: #4C4C4C;
+  text-align: center;
+  font-family: Arial;
+  text-align: left;
+  font-size: 11px;
+  line-height: 13.2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 0px 50px 0px;
+}
+
+.how-it-works {
+  margin-top: 30px;
+}
+
+.how-it-works-img {
+  width: 470px;
+  height: 390px;
+  border: 1px solid #0F999D;
+  border-radius: 9px;
+  background: url(../img/how-it-works-img.png), lightgray -114px -51.029px / 149.362% 120.015% no-repeat;
+}
+
+.how-it-works-title {
+  width: 200px;
+  margin: 49px 0 15px 39px;
+}
+
+.check-icon {
+  margin: 5px 10px 39px 0px;
+}
+
+.how-it-works p {
+  margin: 0 0 10px;
+  font-size: 15px;
+  padding-right: 49px;
+}
+
+.advantage-button-section {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0 20px 0;
+}
+
+strong {
+  font-family: 'Korolev Heavy', sans-serif;
+}
+
+.nutrisystem-advantage-section {
+  background: #FFFAF1;
+  display: flex;
+  justify-content: center;
+}
+
+.advantage-text-section {
+  padding: 0px;
+}
+
+.nutrisystem-advantage-text {
+  font-family: 'Korolev Heavy', sans-serif;
+  padding: 20px 0px;
+  font-size: 19px;
+}
+
+.advantage-text-blue {
+  font-family: 'Korolev Heavy', sans-serif;
+  color: #00A8AD;
+}
+
 
 /* deatils on super small devices */
 
@@ -498,6 +597,10 @@ li .hero-list-paragraph {
     width: 400px;
   }
 
+  .advantage-button-section {
+    display: inline-block;
+    margin-top: 15px;
+  }
 }
 
 /* medium / large desktop +  */
