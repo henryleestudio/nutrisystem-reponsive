@@ -1,13 +1,3 @@
-/* font-family: 'Korolev Heavy', sans-serif;
-font-family: 'Korolev Thin', sans-serif;
-font-family: 'Korolev Light Italic', sans-serif;
-font-family: 'Korolev Light', sans-serif;
-font-family: 'Korolev Medium Italic', sans-serif;
-font-family: 'Korolev Medium', sans-serif;
-font-family: 'Korolev Bold', sans-serif;
-font-family: 'Korolev Bold Italic', sans-serif;
-font-family: 'Korolev Heavy Italic', sans-serif; */
-
 body {
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
@@ -261,7 +251,7 @@ li .hero-list-paragraph {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
 }
 
 .price {
@@ -271,7 +261,7 @@ li .hero-list-paragraph {
   font-size: 18px;
   font-style: normal;
   font-weight: bold;
-  line-height: 19.8px; /* 110% */
+  line-height: 19.8px;
 }
 
 sup {
