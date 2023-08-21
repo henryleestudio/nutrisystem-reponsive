@@ -1,15 +1,13 @@
-# Nutrisystem Responsive Website
+# Nutrisystem Front End Responsive
 Track, update, and delete your dreams by date - Full stack application
 
 I've had vivid and prosthetic dreams for as long as I can remember. Some taught me profound life lessons, and some showed me the matters of my heart. My dreams have taken me on journeys of ancestry, and spirituality. The more we track our dreams, the more we are able to become conscious and create within them. 
 
 HTML 5 | CSS 3 | Bootstrap | Photoshop CC | Git | Github
 
-![localhost_3000_profile](https://user-images.githubusercontent.com/101936420/172062223-c5b3fe18-1dc2-451c-8bfa-817e2751b569.png)
+![nutrisystem-reponsive-desktop](https://github.com/henryleestudio/nutrisystem-responsive/assets/101936420/ba2cf6a4-ae41-4a67-9984-51e8149ae94b)
 
-![localhost_3000_login](https://user-images.githubusercontent.com/101936420/172062252-f080f9c2-23d4-44f8-b65f-5b655fd25a08.png)
-
-![localhost_3000_](https://user-images.githubusercontent.com/101936420/172062260-b55c3f39-af2a-466d-afec-04609acc0f59.png)
+![nutrisystem-reponsive-mobile](https://github.com/henryleestudio/nutrisystem-responsive/assets/101936420/e5d4634a-51d7-4334-b45c-c93db1a8dc7a)
 
 <p align="left">
   <a href="https://henrylee.studio/" target="_blank">
@@ -24,8 +22,8 @@ HTML 5 | CSS 3 | Bootstrap | Photoshop CC | Git | Github
       <img src="https://user-images.githubusercontent.com/101936420/172000074-c75d3108-337c-4756-8a45-f05912613242.png" width="10%"/>
   </a>
 &nbsp
-   <a href="http://www.henrylee.studio/img/henry-lee-resume.pdf" target="_blank">
-      <img src="https://henrylee.studio/images/resume/henry-lee-resume-shopify-design-development.pdf" width="10%"/>
+   <a href="https://henrylee.studio/images/resume/henry-lee-resume-shopify-design-development.pdf" target="_blank">
+      <img src="https://user-images.githubusercontent.com/101936420/172000081-20e4d8e7-7785-4e19-94a9-4be5cf40506c.png" width="10%"/>
   </a>
   </p>
 
