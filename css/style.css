@@ -349,12 +349,15 @@ sup {
   margin-top: 30px;
 }
 
+.how-it-works-img-section {
+  display: flex;
+  justify-content: center;
+}
+
 .how-it-works-img {
   width: 470px;
-  height: 390px;
   border: 1px solid #0F999D;
   border-radius: 9px;
-  background: url(../img/how-it-works-img.png), lightgray -114px -51.029px / 149.362% 120.015% no-repeat;
 }
 
 .how-it-works-title {
@@ -386,6 +389,7 @@ strong {
   background: #FFFAF1;
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .advantage-text-section {
