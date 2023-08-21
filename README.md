@@ -1,5 +1,7 @@
 # Nutrisystem Front End Responsive
-I produced a frontend project converting Nutrisystem's design into a responsive website using HTML5, CSS3, and Bootstrap. With Git and GitHub, I managed version control effectively during development from scratch. Leveraging Photoshop and Figma, I translated design concepts into a visually appealing interface that aligns with Nutrisystem's branding, and the outcome is a sophisticated, user-centric website that showcases frontend development skillset and ability to execute seamless design, engineering, and responsive integration.
+This is a frontend project converting Nutrisystem's design into a responsive website using HTML5, CSS3, and Bootstrap. With Git and GitHub, I managed version control effectively during development from scratch. 
+
+Leveraging Photoshop and Figma, I translated design concepts into a visually appealing interface that aligns with Nutrisystem's branding, and the outcome is a sophisticated, user-centric website that showcases frontend development skillset and ability to execute seamless design, engineering, and responsive integration.
 
 HTML 5 | CSS 3 | Bootstrap | Figma | Photoshop CC | Git | Github
 
