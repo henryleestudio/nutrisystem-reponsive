@@ -7,7 +7,7 @@ HTML 5 | CSS 3 | Bootstrap | Figma | Photoshop CC | Git | Github
 
 ![nutrisystem-reponsive-desktop](https://github.com/henryleestudio/nutrisystem-responsive/assets/101936420/ba2cf6a4-ae41-4a67-9984-51e8149ae94b)
 
-![nutrisystem-reponsive-mobile-1](https://github.com/henryleestudio/nutrisystem-responsive/assets/101936420/83680e91-2f2f-4f2e-992d-4027cca3f585)
+![nutrisystem-responsive-mobile](https://github.com/henryleestudio/nutrisystem-responsive/assets/101936420/1a5c1ab8-e981-406b-b85c-d4b98112d009)
 
 <p align="left">
   <a href="https://henrylee.studio/" target="_blank">
