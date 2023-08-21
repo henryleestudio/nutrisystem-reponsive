@@ -1,13 +1,11 @@
 # Nutrisystem Front End Responsive
-Track, update, and delete your dreams by date - Full stack application
+I produced a frontend project converting Nutrisystem's design into a responsive website using HTML5, CSS3, and Bootstrap. With Git and GitHub, I managed version control effectively during development from scratch. Leveraging Photoshop and Figma, I translated design concepts into a visually appealing interface that aligns with Nutrisystem's branding, and the outcome is a sophisticated, user-centric website that showcases frontend development skillset and ability to execute seamless design, engineering, and responsive integration.
 
-I've had vivid and prosthetic dreams for as long as I can remember. Some taught me profound life lessons, and some showed me the matters of my heart. My dreams have taken me on journeys of ancestry, and spirituality. The more we track our dreams, the more we are able to become conscious and create within them. 
-
-HTML 5 | CSS 3 | Bootstrap | Photoshop CC | Git | Github
+HTML 5 | CSS 3 | Bootstrap | Figma | Photoshop CC | Git | Github
 
 ![nutrisystem-reponsive-desktop](https://github.com/henryleestudio/nutrisystem-responsive/assets/101936420/ba2cf6a4-ae41-4a67-9984-51e8149ae94b)
 
-![nutrisystem-responsive-mobile](https://github.com/henryleestudio/nutrisystem-responsive/assets/101936420/976b4a83-ee04-4349-9078-f82dfaf64e5c)
+![nutrisystem-reponsive-mobile-1](https://github.com/henryleestudio/nutrisystem-responsive/assets/101936420/83680e91-2f2f-4f2e-992d-4027cca3f585)
 
 <p align="left">
   <a href="https://henrylee.studio/" target="_blank">
