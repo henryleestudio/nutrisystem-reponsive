@@ -5,6 +5,8 @@ Leveraging Photoshop and Figma, I translated design concepts into a visually app
 
 HTML 5 | CSS 3 | Bootstrap | Figma | Photoshop CC | Git | Github
 
+Link to project: <a target="_blank" href="https://henryleestudio.github.io/nutrisystem-responsive/">live demo</a>
+
 ![nutrisystem-reponsive-desktop](https://github.com/henryleestudio/nutrisystem-responsive/assets/101936420/ba2cf6a4-ae41-4a67-9984-51e8149ae94b)
 
 ![nutrisystem-responsive-mobile](https://github.com/henryleestudio/nutrisystem-responsive/assets/101936420/1a5c1ab8-e981-406b-b85c-d4b98112d009)
