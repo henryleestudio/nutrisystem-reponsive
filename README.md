@@ -3,8 +3,6 @@ A frontend project converting Nutrisystem's design into a responsive website usi
 
 Leveraging Photoshop and Figma, I translated design concepts into a visually appealing interface that aligns with Nutrisystem's branding, and the outcome is a sophisticated, user-centric website that showcases frontend development skillset and ability to execute seamless design, engineering, and responsive integration.
 
-HTML 5 | CSS 3 | Bootstrap | Figma | Photoshop CC | Git | Github
-
 Link to project: <a target="_blank" href="https://henryleestudio.github.io/nutrisystem-responsive/">live demo</a>
 
 ![nutrisystem-reponsive-desktop](https://github.com/henryleestudio/nutrisystem-responsive/assets/101936420/ba2cf6a4-ae41-4a67-9984-51e8149ae94b)
